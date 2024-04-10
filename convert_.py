@@ -92,7 +92,7 @@ def load_glove_model(
     :param glove_file:
     :return:
     """
-    f = open(glove_file, 'r')
+    f = open(glove_file, 'r',encoding='utf-8')
     model = {}
     for line in f:
         splitline = line.split()
